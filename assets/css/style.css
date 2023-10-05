@@ -36,14 +36,201 @@ h6 {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #000000;
+
 }
 
-.container {
-    background-color: #ffffff;
-}
+
+
+
 
 /*=========================================*/
-/*==========Start Header Section==========*/
+/*==========Start Hero Section==========*/
 /*=========================================*/
+.logo-area {
+	margin-top: -40px;
+    text-align: center;
+}
+.logo-area .logo-link{}
+.logo-area .logo-link .logo-image{
+    height: 104px;
+    width: 147px;
+}
+.main-hero-section{
+    background: url(../images/bg-01.jpeg)no-repeat scroll 0 0 / 100% 100%;
+    border-top: 40px solid  #B42326;;
+}
+.hero-text-area{
+    padding: 170px 0px 105px 0px;
+}
+.hero-text-area .hero-text{
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #FFFFFF;
+    font-family: 'Flama';
+}
+
+
+
+
+
+
+
+
+/*=========================================*/
+/*==========Start Main View Section==========*/
+/*=========================================*/
+
+.main-view-area{
+    background-color: #FFFFFF;
+}
+.main-view-heading-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.main-view-heading-area .main-view-text-area{
+    flex-basis: 65%;
+}
+.main-view-heading-area .main-view-text-area .heading-text-one{
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #394C53;
+    font-family: 'Flama';
+}
+.main-view-heading-area .main-view-text-area .heading-text-two{
+        font-size: 40px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #394C53;
+    font-family: 'Flama';
+    margin-left: 30px;
+}
+.main-view-heading-area .main-view-text-area .heading-text-three{
+        font-size: 40px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #394C53;
+    font-family: 'Flama';
+    margin-left: 60px;
+}
+
+.main-view-heading-area .main-view-img-area{
+    flex-basis: 35%;
+}
+.main-view-heading-area .main-view-img-area .apple-one {
+	height: auto;
+	width: 100%;
+	margin-top: -270px;
+}
+
+
+
+
+
+
+
+.view-item{}
+.view-item .view-item-ul{}
+.view-item .view-item-ul .view-item-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.view-item .view-item-ul .view-item-list .view-list-dot{
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
+}
+.view-item .view-item-ul .view-item-list .view-list-text{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #394C53;
+    font-family: 'Flama';
+ 
+}
+
+
+
+/*=========================================*/
+/*==========Start Main Form Section==========*/
+/*=========================================*/
+.mian-form-section{
+    background: #DC9A9C;
+    padding: 20px 0px;
+}
+.form-heading{
+    text-align: center;
+    padding: 20px 0px;
+}
+.form-heading .form-heading-text{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-family: 'Flama';
+}
+
+.main-form-area{}
+.main-form-area .form-area{}
+.main-form-area .form-area .form-group{
+    margin-bottom: 15px;
+}
+.main-form-area .form-area .form-group .input-text{
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #394C53;
+    font-family: 'Flama';
+    background: #FFFFFF;
+    height: 31px;
+    padding: 10px;
+    width: 90%;
+}
+.main-form-area .form-area .note-text{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-family: 'Flama';
+}
+
+.form-text-area{}
+.form-text-area .form-details-text{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-family: 'Flama';
+}
+
+
+
+
+/*===================================================*/
+/*==========Start Main Reap success Section==========*/
+/*===================================================*/
+.reap-success-section{}
+.reap-heading-section{
+
+}
+.reap-heading-section .reap-heading-text{
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #394C53;
+    font-family: 'Flama';
+}
+.reap-heading-section .reap-heading-text span{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #394C53;
+    font-family: 'Flama';
+    margin-left: 30px;
+}
+
+
